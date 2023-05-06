@@ -19,7 +19,7 @@
     // Preloader
     $(window).on('load', function() {
         if ($('#preloader').length) {
-            $('#preloader').delay(30).fadeOut('slow', function() {
+            $('#preloader').delay(10).fadeOut('slow', function() {
                 $(this).remove();
             });
         }
