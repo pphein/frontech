@@ -52,7 +52,20 @@
         }
         .carousel-control-prev, 
         .carousel-control-next {
-            display: none;
+            background: #0078ff;
+            color: #fff;
+            width: 44px;
+            height: 44px;
+            text-align: center;
+            line-height: 1;
+            font-size: 16px;
+            border-radius: 50%;
+            right: 4rem;
+            margin-left: 4rem;
+            transition: background 0.5s;
+            z-index: 11;
+            border-style: none;
+            top: 40%;
         }
 
         .carousel-img-pc {
@@ -72,6 +85,11 @@
             .carousel-image-mb {
                 display: block !important;
             }
+            .carousel-control-next,
+            .carousel-control-prev {
+                right: 0;
+                margin-left: 0;
+            }
         }
     </style>
 </head>
@@ -79,7 +97,7 @@
 <body id="page-top">
 
     <!-- ======= Header/ Navbar ======= -->
-    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll" href="#page-top"><img src="assets/img/logo.png" alt=""
                     style="width: 178px"></a>
@@ -103,28 +121,23 @@
                     <li class="nav-item dropdown"  id="serviceMenu">
                         <a class="nav-link js-scroll dropdown-toggle" href="#service">Services</a>
                         <ul class="dropdown-menu serviceMenu">
-                            <li><a class="dropdown-item" href="cctv-system.html">CCTV System</a></li>
-                            <li><a class="dropdown-item" href="#">Networking</a></li>
-                            <li><a class="dropdown-item" href="#">Fire Alarm System</a></li>
-                            <li><a class="dropdown-item" href="#">Intrusion Alarm System</a></li>
-                            <li><a class="dropdown-item" href="#">Access Control System</a></li>
-                            <li><a class="dropdown-item" href="#">Electronic Parking System</a></li>
-                            <li><a class="dropdown-item" href="#">Building Management System</a></li>
-                            <li><a class="dropdown-item" href="#">Public Address (PA) System</a></li>
-                            <li><a class="dropdown-item" href="#">Other System</a></li>
+                            <li><a class="dropdown-item" href="services.html#cctv">CCTV System</a></li>
+                            <li><a class="dropdown-item" href="services.html#networking">Networking</a></li>
+                            <li><a class="dropdown-item" href="services.html#fire-alarm">Fire Alarm System</a></li>
+                            <li><a class="dropdown-item" href="services.html#intrusion-alarm">Intrusion Alarm System</a></li>
+                            <li><a class="dropdown-item" href="services.html#access-control">Access Control System</a></li>
+                            <li><a class="dropdown-item" href="services.html#electronic-parking">Electronic Parking System</a></li>
+                            <li><a class="dropdown-item" href="services.html#building-management">Building Management System</a></li>
+                            <li><a class="dropdown-item" href="services.html#public-address">Public Address (PA) System</a></li>
+                            <li><a class="dropdown-item" href="services.html#other-system">Other System</a></li>
                           </ul>
                 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll" href="#partner">Partners</a>
                     </li>
-                    <li class="nav-item dropdown" id="projectMenu">
-                        <a class="nav-link js-scroll dropdown-toggle" href="#project">Projects</a>
-                        <ul class="dropdown-menu projectMenu">
-                            <li><a class="dropdown-item" href="cctv-system.html">CCTV System</a></li>
-                            <li><a class="dropdown-item" href="#">Networking</a></li>
-                            <li><a class="dropdown-item" href="#">Fire Alarm System</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -157,30 +170,24 @@
         </div> -->
             <!-- <div style="position: absolute;"></div> -->
             <div id="carouselExampleInterval" class="overlay-itro carousel slide carousel-fade" style="background-color: rgba(0, 0, 0, 0.8);
-            overflow: hidden; margin-top: -7rem; z-index: -1;" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-            
+            overflow: hidden; margin-top: -7rem;" data-bs-ride="carousel">            
                 <div class="carousel-inner">
-                  <div class="carousel-item carousel-img-pc active" data-bs-interval="3000">
+                  <div class="carousel-item carousel-img-pc active" >
                     <a href="cctv-system.html">
-                        <img src="image70.png" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
+                        <img src="cctv-pc.png" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
                         <img src="cctv-mb.png" class=" carousel-image-mb" style="width: 100%; object-fit: cover;" alt="">
                     </a>
                   </div>
-                  <div class="carousel-item carousel-img-pc" data-bs-interval="3000">
-                    <a href="cctv-system.html">
-                        <img src="slide-pc.jpg" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
-                        <img src="slide-mb.jpg" class=" carousel-image-mb" style="width: 100%; object-fit: cover;" alt="">
+                  <div class="carousel-item carousel-img-pc" >
+                    <a href="networking.html">
+                        <img src="networking-pc.png" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
+                        <img src="networking-mb.png" class=" carousel-image-mb" style="width: 100%; object-fit: cover;" alt="">
                     </a>
                   </div>
-                  <div class="carousel-item carousel-img-pc" data-bs-interval="3000">
-                    <a href="cctv-system.html">
-                        <img src="slide-pc2.jpg" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
-                        <img src="slide-mb2.jpg" class=" carousel-image-mb" style="width: 100%; object-fit: cover;" alt="">
+                  <div class="carousel-item carousel-img-pc" >
+                    <a href="fire-alarm-system.html">
+                        <img src="firealarm-pc.png" class=" carousel-image" style="width: 100%; object-fit: cover;" alt="">
+                        <img src="firealarm-mb.png" class=" carousel-image-mb" style="width: 100%; object-fit: cover;" alt="">
                     </a>
                   </div>
                 </div>
@@ -329,7 +336,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" style="display:flex; flex-direction:row; justify-content: center">
+                    <!-- <div class="col-md-4" style="display:flex; flex-direction:row; justify-content: center">
                         <a href="cctv-system.html">
                             <div class="service-box">
                                 <div class="service-ico">
@@ -344,7 +351,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                     <div class="col-md-4" style="display:flex; flex-direction:row; justify-content: center">
                         <div class="service-box">
                             <div class="service-ico">
