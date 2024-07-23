@@ -5,7 +5,7 @@
     ecah logo to each work page (just three)
       - photo
       - some text
-3. new tab for projects 
+done - 3. new tab for projects 
 4. add dropdown list for project and services (three study cases)
 done - 5. adjust to center for client and partner logos
 6. add new client logo (five logos)
