@@ -642,6 +642,7 @@ a:hover {
 
 .navbar-b .dropdown-menu .dropdown-item.active {
     background-color: #0078ff;
+    color:white;
 }
 
 
