@@ -725,13 +725,16 @@ a:hover {
 
 .intro .intro-title {
     color: #fff;
-    font-weight: 600;
-    font-size: 3rem;
+    /* font-weight: 600; */
+    /* font-size: 3rem; */
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 
 @media (min-width: 768px) {
     .intro .intro-title {
-        font-size: 4.5rem;
+        /* font-size: 4.5rem; */
+        font-size: 3rem;
     }
 }
 
@@ -760,12 +763,14 @@ a:hover {
 
 .intro-single .intro-title {
     text-transform: uppercase;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 2.5rem;
 }
 
 @media (min-width: 768px) {
     .intro-single .intro-title {
-        font-size: 3.5rem;
+        /* font-size: 3.5rem; */
+        font-size: 3rem;
     }
 }
 
